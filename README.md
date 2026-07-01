@@ -7,10 +7,10 @@ The app helps a Southeast Asia fashion retailer turn campaign history, product c
 ## Submission Contents
 
 - **Codebase**: frontend, backend, infrastructure, data, static assets, and run scripts are included in this repository.
-- **Architecture overview PDF**: [docs/architecture.pdf](/Users/twp_bot/Documents/aws_poc/docs/architecture.pdf)
-- **Build approach and considerations PDF**: [docs/build-approach.pdf](/Users/twp_bot/Documents/aws_poc/docs/build-approach.pdf)
-- **Editable source docs**: [docs/architecture.md](/Users/twp_bot/Documents/aws_poc/docs/architecture.md) and [docs/build-approach.md](/Users/twp_bot/Documents/aws_poc/docs/build-approach.md)
-- **AWS deployment skeleton**: [infra/aws-prototype.yaml](/Users/twp_bot/Documents/aws_poc/infra/aws-prototype.yaml)
+- **Architecture overview PDF**: [docs/architecture.pdf](docs/architecture.pdf)
+- **Build approach and considerations PDF**: [docs/build-approach.pdf](docs/build-approach.pdf)
+- **Editable source docs**: [docs/architecture.md](docs/architecture.md) and [docs/build-approach.md](docs/build-approach.md)
+- **AWS deployment skeleton**: [infra/aws-prototype.yaml](infra/aws-prototype.yaml)
 
 ## Demo Flow
 
@@ -55,7 +55,6 @@ docs/
   architecture.pdf        one-page architecture overview
   build-approach.md       editable build approach source
   build-approach.pdf      1-2 page build approach and considerations
-  walkthrough-script.md   optional demo narration
 infra/
   aws-prototype.yaml      AWS deployment skeleton
 scripts/
@@ -153,7 +152,7 @@ python scripts/generate_deliverable_pdfs.py
 
 ## Environment Variables
 
-The full set is documented in [.env.example](/Users/twp_bot/Documents/aws_poc/.env.example). Key values:
+The full set is documented in [.env.example](.env.example). Key values:
 
 - `OPENAI_API_KEY`: enables live recommendation refresh, brief refinement, copy polish, and GPT Image 2 generation.
 - `OPENAI_MODEL`: text model for optional AI steps.
