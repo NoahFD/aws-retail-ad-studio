@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Linen Ease Shirt</title>
+  <desc id="desc">Synthetic catalog image of a white linen shirt outfit.</desc>
+  <rect width="640" height="820" fill="#f4f1eb"/>
+  <rect x="78" y="70" width="484" height="690" rx="26" fill="#ebe6dc"/>
+  <circle cx="320" cy="185" r="58" fill="#c99873"/>
+  <path d="M272 178c8-58 86-72 112-23 22 44-12 94-67 94-32 0-53-22-45-71z" fill="#3c2b25"/>
+  <path d="M204 288c38-38 75-56 116-56s78 18 116 56l28 372H176l28-372z" fill="#f7f4ee"/>
+  <path d="M320 232l-45 62 45 55 45-55-45-62z" fill="#eee6d9"/>
+  <path d="M235 307l-58 206 58 18 46-179-46-45zM405 307l58 206-58 18-46-179 46-45z" fill="#f7f4ee"/>
+  <path d="M320 315v345" stroke="#d9d0c2" stroke-width="8"/>
+  <path d="M246 660h148l-14 72H260l-14-72z" fill="#b9b0a1"/>
+  <circle cx="320" cy="390" r="8" fill="#d3cabd"/>
+  <circle cx="320" cy="452" r="8" fill="#d3cabd"/>
+  <circle cx="320" cy="514" r="8" fill="#d3cabd"/>
+</svg>
+

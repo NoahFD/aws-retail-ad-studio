@@ -1,0 +1,30 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+.devserver/
+*.tsbuildinfo
+.netlify/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+backend/.pytest_cache/
+frontend/.env.local
+frontend/.netlify/
+tmp/
+
+# Generated runtime artifacts. Keep curated demo assets in source; put
+# per-run exports and live model outputs in Google Drive or object storage.
+backend/static/exports/
+backend/static/generated/*.png
+backend/static/generated/videos/seedance-*.json
+backend/static/generated/videos/seedance-*.mp4

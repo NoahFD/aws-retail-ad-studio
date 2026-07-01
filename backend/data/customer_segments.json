@@ -1,0 +1,51 @@
+[
+  {
+    "id": "seg_urban_professionals",
+    "name": "Urban Professionals",
+    "age_range": "25-34",
+    "markets": ["Singapore", "Malaysia", "Thailand"],
+    "size_millions": 3.2,
+    "profile": "Office-to-evening shoppers who prefer versatile pieces and fast delivery",
+    "preferred_channels": ["Meta", "Email", "Display"],
+    "copy_preferences": ["benefit-led", "new-arrival", "editorial"],
+    "price_sensitivity": "Medium",
+    "creative_notes": "Clean editorial images, outfit utility, work-to-weekend framing"
+  },
+  {
+    "id": "seg_style_enthusiasts",
+    "name": "Style Enthusiasts",
+    "age_range": "18-24",
+    "markets": ["Singapore", "Indonesia", "Philippines"],
+    "size_millions": 2.7,
+    "profile": "Trend-led shoppers who save social posts and react to creator styling",
+    "preferred_channels": ["TikTok", "Meta"],
+    "copy_preferences": ["trend-led", "promo-urgency", "new-arrival"],
+    "price_sensitivity": "Medium",
+    "creative_notes": "Motion-first styling, creator framing, bold crop, social proof"
+  },
+  {
+    "id": "seg_value_seekers",
+    "name": "Value Seekers",
+    "age_range": "25-35",
+    "markets": ["Malaysia", "Indonesia", "Thailand"],
+    "size_millions": 4.6,
+    "profile": "Practical shoppers who compare price, promotion, and quality",
+    "preferred_channels": ["Display", "Email", "Meta"],
+    "copy_preferences": ["value-led", "promo-urgency", "benefit-led"],
+    "price_sensitivity": "High",
+    "creative_notes": "Clear offer framing, comparison language, product durability cues"
+  },
+  {
+    "id": "seg_modest_fashion",
+    "name": "Modest Fashion Shoppers",
+    "age_range": "22-39",
+    "markets": ["Malaysia", "Indonesia", "Singapore"],
+    "size_millions": 5.1,
+    "profile": "Occasion-led shoppers looking for breathable, polished coverage",
+    "preferred_channels": ["Meta", "TikTok", "Email"],
+    "copy_preferences": ["occasion-led", "editorial", "benefit-led"],
+    "price_sensitivity": "Medium",
+    "creative_notes": "Soft movement, breathable fabric cues, festive and office styling"
+  }
+]
+

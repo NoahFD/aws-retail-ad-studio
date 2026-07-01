@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Resort Linen Overshirt</title>
+  <desc id="desc">Synthetic catalog image of an olive linen overshirt.</desc>
+  <rect width="640" height="820" fill="#eef1ea"/>
+  <rect x="88" y="62" width="464" height="704" rx="28" fill="#dde5d5"/>
+  <circle cx="320" cy="176" r="55" fill="#b07755"/>
+  <path d="M268 178c4-67 88-81 116-28 19 36 6 86-60 90-37 3-61-22-56-62z" fill="#33281f"/>
+  <path d="M228 260h184l42 330H186l42-330z" fill="#7f8a60"/>
+  <path d="M263 260l57 76 57-76h-114z" fill="#e8e0cf"/>
+  <path d="M223 292l-62 174 48 22 46-146-32-50zM417 292l62 174-48 22-46-146 32-50z" fill="#7f8a60"/>
+  <path d="M320 336v254" stroke="#5f6d43" stroke-width="8"/>
+  <path d="M218 590h204l-26 126H244l-26-126z" fill="#2c3030"/>
+  <circle cx="320" cy="392" r="8" fill="#5f6d43"/>
+  <circle cx="320" cy="456" r="8" fill="#5f6d43"/>
+</svg>
+

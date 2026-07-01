@@ -1,0 +1,38 @@
+campaign_id,date,market,channel,segment_id,product_id,format,copy_style,image_style,objective,spend_sgd,impressions,clicks,conversions,revenue_sgd,trend_tag
+cmp_001,2026-03-04,Singapore,Meta,seg_urban_professionals,prod_linen_shirt,Carousel,benefit-led,editorial,Sales,1200,84000,2050,164,6480,office-refresh
+cmp_002,2026-03-05,Singapore,TikTok,seg_style_enthusiasts,prod_batik_maxi,Short video,trend-led,creator-motion,Sales,950,112000,2710,138,5310,payday-style
+cmp_003,2026-03-07,Malaysia,Display,seg_value_seekers,prod_tailored_trouser,Responsive banner,value-led,product-detail,Sales,720,98000,1176,78,2650,workwear-deal
+cmp_004,2026-03-09,Indonesia,Email,seg_modest_fashion,prod_modest_tunic,Hero module,occasion-led,editorial,Retention,430,36000,1188,132,5148,ramadan-edit
+cmp_005,2026-03-12,Singapore,Meta,seg_style_enthusiasts,prod_pleated_skirt,Reels cutdown,trend-led,creator-motion,Traffic,870,93000,2139,93,2790,social-save
+cmp_006,2026-03-14,Thailand,Display,seg_urban_professionals,prod_resort_overshirt,Responsive banner,benefit-led,lifestyle,Awareness,650,102000,1224,61,2013,weekend-ready
+cmp_007,2026-03-17,Malaysia,TikTok,seg_modest_fashion,prod_batik_maxi,Short video,occasion-led,creator-motion,Sales,980,126000,3024,181,7330,festive-flow
+cmp_008,2026-03-19,Singapore,Email,seg_urban_professionals,prod_linen_shirt,Hero module,new-arrival,editorial,Sales,520,42000,1428,151,6035,new-season
+cmp_009,2026-03-21,Indonesia,Meta,seg_value_seekers,prod_tailored_trouser,Static feed,value-led,product-detail,Sales,810,87000,1566,104,3744,office-value
+cmp_010,2026-03-24,Thailand,TikTok,seg_style_enthusiasts,prod_resort_overshirt,Short video,promo-urgency,creator-motion,Sales,760,97000,2221,107,3424,weekend-drop
+cmp_011,2026-03-26,Malaysia,Email,seg_value_seekers,prod_linen_shirt,Promo module,promo-urgency,product-detail,Sales,390,31000,930,91,3094,payday-offer
+cmp_012,2026-03-29,Singapore,Display,seg_urban_professionals,prod_pleated_skirt,Responsive banner,editorial,editorial,Traffic,700,95000,1425,66,2244,capsule-edit
+cmp_013,2026-04-02,Singapore,Meta,seg_modest_fashion,prod_modest_tunic,Carousel,occasion-led,editorial,Sales,1120,90000,2160,169,6760,modest-office
+cmp_014,2026-04-03,Indonesia,TikTok,seg_style_enthusiasts,prod_batik_maxi,Short video,trend-led,creator-motion,Sales,990,138000,3450,207,8694,creator-pick
+cmp_015,2026-04-05,Malaysia,Display,seg_value_seekers,prod_linen_shirt,Responsive banner,value-led,product-detail,Sales,760,121000,1815,116,3944,payday-basics
+cmp_016,2026-04-07,Singapore,Email,seg_urban_professionals,prod_tailored_trouser,Hero module,benefit-led,editorial,Retention,510,39000,1365,145,5945,workwear-capsule
+cmp_017,2026-04-10,Thailand,Meta,seg_style_enthusiasts,prod_resort_overshirt,Reels cutdown,trend-led,lifestyle,Traffic,850,91000,2002,84,2688,holiday-fit
+cmp_018,2026-04-12,Malaysia,TikTok,seg_modest_fashion,prod_modest_tunic,Short video,occasion-led,creator-motion,Sales,1050,132000,3300,198,8316,festive-layering
+cmp_019,2026-04-15,Singapore,Display,seg_urban_professionals,prod_linen_shirt,Responsive banner,benefit-led,editorial,Sales,690,101000,1515,95,3800,humid-workwear
+cmp_020,2026-04-18,Indonesia,Email,seg_value_seekers,prod_tailored_trouser,Promo module,promo-urgency,product-detail,Sales,420,33000,1056,93,3441,salary-week
+cmp_021,2026-04-20,Singapore,Meta,seg_urban_professionals,prod_tailored_trouser,Carousel,editorial,editorial,Sales,1210,88000,2112,158,6636,boardroom-to-dinner
+cmp_022,2026-04-22,Malaysia,TikTok,seg_style_enthusiasts,prod_pleated_skirt,Short video,trend-led,creator-motion,Sales,910,116000,2900,153,4896,social-trend
+cmp_023,2026-04-25,Thailand,Display,seg_value_seekers,prod_resort_overshirt,Responsive banner,value-led,lifestyle,Sales,680,99000,1287,72,2376,summer-offer
+cmp_024,2026-04-27,Singapore,Email,seg_modest_fashion,prod_batik_maxi,Hero module,occasion-led,editorial,Sales,540,41000,1476,148,6216,occasion-edit
+cmp_025,2026-05-01,Indonesia,Meta,seg_style_enthusiasts,prod_batik_maxi,Reels cutdown,trend-led,creator-motion,Traffic,920,104000,2496,113,3842,new-pattern
+cmp_026,2026-05-03,Malaysia,Display,seg_modest_fashion,prod_modest_tunic,Responsive banner,occasion-led,editorial,Sales,740,100000,1600,103,4017,modest-refresh
+cmp_027,2026-05-05,Singapore,TikTok,seg_urban_professionals,prod_linen_shirt,Short video,benefit-led,lifestyle,Sales,880,94000,2256,121,4840,commute-style
+cmp_028,2026-05-07,Thailand,Email,seg_value_seekers,prod_linen_shirt,Promo module,value-led,product-detail,Sales,400,35000,1120,98,3528,value-basics
+cmp_029,2026-05-10,Singapore,Meta,seg_urban_professionals,prod_pleated_skirt,Carousel,editorial,editorial,Sales,1180,85000,2210,172,7396,capsule-week
+cmp_030,2026-05-11,Malaysia,TikTok,seg_style_enthusiasts,prod_resort_overshirt,Short video,promo-urgency,creator-motion,Sales,860,118000,2832,136,4352,weekend-men
+cmp_031,2026-05-13,Indonesia,Display,seg_value_seekers,prod_tailored_trouser,Responsive banner,value-led,product-detail,Sales,780,115000,1725,114,4104,office-sale
+cmp_032,2026-05-15,Singapore,Email,seg_urban_professionals,prod_linen_shirt,Hero module,new-arrival,editorial,Sales,560,44000,1628,171,7353,new-linen
+cmp_033,2026-05-17,Malaysia,Meta,seg_modest_fashion,prod_batik_maxi,Carousel,occasion-led,editorial,Sales,1150,93000,2325,186,7812,raya-edit
+cmp_034,2026-05-19,Singapore,TikTok,seg_style_enthusiasts,prod_pleated_skirt,Short video,trend-led,creator-motion,Sales,940,123000,3198,169,5746,creator-style
+cmp_035,2026-05-21,Thailand,Display,seg_urban_professionals,prod_tailored_trouser,Responsive banner,benefit-led,editorial,Traffic,710,104000,1560,70,2380,work-trip
+cmp_036,2026-05-23,Indonesia,Email,seg_modest_fashion,prod_modest_tunic,Hero module,benefit-led,editorial,Retention,500,38000,1406,142,5822,loyalty-edit
+

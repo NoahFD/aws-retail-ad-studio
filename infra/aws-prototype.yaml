@@ -1,0 +1,131 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: AI-Powered Retail Ad Studio prototype deployment skeleton.
+
+Parameters:
+  BackendImageUri:
+    Type: String
+    Description: ECR image URI for the FastAPI backend container.
+  OpenAISecretArn:
+    Type: String
+    Description: Optional Secrets Manager ARN containing OPENAI_API_KEY.
+    Default: ""
+
+Resources:
+  RetailAdStudioDataBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  CampaignPerformanceTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: campaign_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: campaign_id
+          KeyType: HASH
+
+  ProductCatalogTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: product_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: product_id
+          KeyType: HASH
+
+  SegmentProfileTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: segment_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: segment_id
+          KeyType: HASH
+
+  CreativeRunsTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: PAY_PER_REQUEST
+      AttributeDefinitions:
+        - AttributeName: run_id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: run_id
+          KeyType: HASH
+
+  BackendAccessRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: tasks.apprunner.amazonaws.com
+            Action: sts:AssumeRole
+      Policies:
+        - PolicyName: RetailAdStudioBackendAccess
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - s3:GetObject
+                  - s3:ListBucket
+                  - s3:PutObject
+                Resource:
+                  - !GetAtt RetailAdStudioDataBucket.Arn
+                  - !Sub "${RetailAdStudioDataBucket.Arn}/*"
+              - Effect: Allow
+                Action:
+                  - dynamodb:GetItem
+                  - dynamodb:PutItem
+                  - dynamodb:Query
+                  - dynamodb:Scan
+                Resource:
+                  - !GetAtt CampaignPerformanceTable.Arn
+                  - !GetAtt ProductCatalogTable.Arn
+                  - !GetAtt SegmentProfileTable.Arn
+                  - !GetAtt CreativeRunsTable.Arn
+              - Effect: Allow
+                Action:
+                  - secretsmanager:GetSecretValue
+                Resource: "*"
+
+  BackendService:
+    Type: AWS::AppRunner::Service
+    Properties:
+      ServiceName: retail-ad-studio-backend
+      SourceConfiguration:
+        AuthenticationConfiguration: {}
+        AutoDeploymentsEnabled: false
+        ImageRepository:
+          ImageIdentifier: !Ref BackendImageUri
+          ImageRepositoryType: ECR
+          ImageConfiguration:
+            Port: "8000"
+            RuntimeEnvironmentVariables:
+              BACKEND_CORS_ORIGINS: "*"
+              OPENAI_SECRET_ARN: !Ref OpenAISecretArn
+      InstanceConfiguration:
+        Cpu: "1 vCPU"
+        Memory: "2 GB"
+        InstanceRoleArn: !GetAtt BackendAccessRole.Arn
+
+Outputs:
+  DataBucketName:
+    Value: !Ref RetailAdStudioDataBucket
+  BackendUrl:
+    Value: !GetAtt BackendService.ServiceUrl
+

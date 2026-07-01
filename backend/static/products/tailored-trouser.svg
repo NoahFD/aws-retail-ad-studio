@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">City Tailored Trouser</title>
+  <desc id="desc">Synthetic catalog image of a tailored trouser outfit.</desc>
+  <rect width="640" height="820" fill="#f3f4f0"/>
+  <rect x="88" y="62" width="464" height="704" rx="28" fill="#e4e7df"/>
+  <circle cx="320" cy="176" r="54" fill="#b97c5d"/>
+  <path d="M274 164c15-61 102-58 112 3 7 42-22 71-64 72-39 1-58-26-48-75z" fill="#1d1d1f"/>
+  <path d="M238 262h164l34 202H204l34-202z" fill="#2d2f32"/>
+  <path d="M236 456h80l-26 270h-86l32-270zM324 456h80l32 270h-86l-26-270z" fill="#363a3e"/>
+  <path d="M210 290l-58 180 48 20 50-164-40-36zM430 290l58 180-48 20-50-164 40-36z" fill="#2d2f32"/>
+  <path d="M320 456v270" stroke="#25282b" stroke-width="8"/>
+  <path d="M244 726h64M332 726h64" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+</svg>
+

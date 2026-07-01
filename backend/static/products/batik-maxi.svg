@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Batik Flow Maxi Dress</title>
+  <desc id="desc">Synthetic catalog image of a blue patterned maxi dress.</desc>
+  <rect width="640" height="820" fill="#eef3f2"/>
+  <rect x="88" y="64" width="464" height="700" rx="28" fill="#dfe9e7"/>
+  <circle cx="322" cy="174" r="54" fill="#b97859"/>
+  <path d="M278 168c1-58 72-76 104-33 31 42 7 91-52 97-36 4-57-21-52-64z" fill="#231f20"/>
+  <path d="M254 255h132l68 436c-78 35-178 35-256 0l56-436z" fill="#6ea1ba"/>
+  <path d="M254 255l-64 190 46 20 48-164-30-46zM386 255l64 190-46 20-48-164 30-46z" fill="#6ea1ba"/>
+  <path d="M275 300c34 20 64 20 94 0M258 398c48 28 92 28 128 0M242 506c59 33 119 33 158 0M226 620c70 35 141 35 188 0" fill="none" stroke="#f4d7b4" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="294" cy="353" r="16" fill="#2f6f8a"/>
+  <circle cx="356" cy="444" r="18" fill="#2f6f8a"/>
+  <circle cx="302" cy="568" r="15" fill="#2f6f8a"/>
+  <circle cx="374" cy="618" r="14" fill="#2f6f8a"/>
+</svg>
+

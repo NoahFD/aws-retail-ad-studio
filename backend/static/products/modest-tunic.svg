@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Airweave Modest Tunic</title>
+  <desc id="desc">Synthetic catalog image of a longline modest tunic.</desc>
+  <rect width="640" height="820" fill="#f1f4f0"/>
+  <rect x="88" y="62" width="464" height="704" rx="28" fill="#e0e8df"/>
+  <circle cx="320" cy="176" r="54" fill="#ad745a"/>
+  <path d="M262 178c6-68 101-82 126-25 18 42-11 88-67 89-43 1-65-23-59-64z" fill="#2f2a24"/>
+  <path d="M218 258h204l52 434c-86 34-222 34-308 0l52-434z" fill="#d6c7b3"/>
+  <path d="M320 258l-42 70h84l-42-70z" fill="#efe7dc"/>
+  <path d="M218 292l-74 214 52 24 58-174-36-64zM422 292l74 214-52 24-58-174 36-64z" fill="#d6c7b3"/>
+  <path d="M238 430h164M228 558h184" stroke="#bfae98" stroke-width="10" stroke-linecap="round"/>
+  <path d="M250 692h68l-14 52h-72l18-52zM322 692h68l18 52h-72l-14-52z" fill="#3a3d3a"/>
+</svg>
+

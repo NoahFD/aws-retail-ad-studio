@@ -1,0 +1,68 @@
+[
+  {
+    "id": "prod_linen_shirt",
+    "name": "Linen Ease Shirt",
+    "category": "Shirts",
+    "price_sgd": 69,
+    "description": "Lightweight linen-blend shirt with relaxed tailoring for humid city days.",
+    "image_url": "/static/products/linen-shirt.png",
+    "tags": ["linen", "workwear", "best-seller", "breathable"],
+    "margin": 0.62,
+    "inventory_score": 91
+  },
+  {
+    "id": "prod_batik_maxi",
+    "name": "Batik Flow Maxi Dress",
+    "category": "Dresses",
+    "price_sgd": 129,
+    "description": "Fluid printed maxi dress designed for weekend dinners and festive gatherings.",
+    "image_url": "/static/products/batik-maxi.png",
+    "tags": ["dress", "occasion", "batik-inspired", "social"],
+    "margin": 0.58,
+    "inventory_score": 84
+  },
+  {
+    "id": "prod_tailored_trouser",
+    "name": "City Tailored Trouser",
+    "category": "Bottoms",
+    "price_sgd": 89,
+    "description": "Structured wide-leg trouser with all-day comfort and crease-resistant finish.",
+    "image_url": "/static/products/tailored-trouser.png",
+    "tags": ["workwear", "tailored", "capsule", "premium"],
+    "margin": 0.55,
+    "inventory_score": 78
+  },
+  {
+    "id": "prod_resort_overshirt",
+    "name": "Resort Linen Overshirt",
+    "category": "Menswear",
+    "price_sgd": 79,
+    "description": "Relaxed short-sleeve overshirt with a breathable linen texture.",
+    "image_url": "/static/products/resort-overshirt.png",
+    "tags": ["menswear", "linen", "weekend", "summer"],
+    "margin": 0.57,
+    "inventory_score": 88
+  },
+  {
+    "id": "prod_pleated_skirt",
+    "name": "Soft Pleat Midi Skirt",
+    "category": "Skirts",
+    "price_sgd": 95,
+    "description": "Soft pleated midi skirt with movement-led drape for office and evening wear.",
+    "image_url": "/static/products/pleated-skirt.png",
+    "tags": ["midi", "workwear", "movement", "capsule"],
+    "margin": 0.6,
+    "inventory_score": 73
+  },
+  {
+    "id": "prod_modest_tunic",
+    "name": "Airweave Modest Tunic",
+    "category": "Tops",
+    "price_sgd": 82,
+    "description": "Longline tunic with breathable coverage and a polished layered silhouette.",
+    "image_url": "/static/products/modest-tunic.png",
+    "tags": ["modest", "breathable", "layering", "occasion"],
+    "margin": 0.59,
+    "inventory_score": 86
+  }
+]

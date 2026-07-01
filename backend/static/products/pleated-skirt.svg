@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 820" role="img" aria-labelledby="title desc">
+  <title id="title">Soft Pleat Midi Skirt</title>
+  <desc id="desc">Synthetic catalog image of a pleated midi skirt outfit.</desc>
+  <rect width="640" height="820" fill="#f4f2f0"/>
+  <rect x="88" y="62" width="464" height="704" rx="28" fill="#e8e3dd"/>
+  <circle cx="320" cy="174" r="54" fill="#bb7d5d"/>
+  <path d="M276 161c8-61 89-71 112-18 20 47-7 90-61 94-42 3-61-29-51-76z" fill="#40241e"/>
+  <path d="M242 260h156l32 170H210l32-170z" fill="#f8f4ee"/>
+  <path d="M216 424h208l62 288c-92 34-240 34-332 0l62-288z" fill="#b77f77"/>
+  <path d="M246 434l-28 268M290 430l-10 290M334 430l10 290M378 434l28 268" stroke="#d9aaa4" stroke-width="10"/>
+  <path d="M236 288l-58 172 48 18 45-146-35-44zM404 288l58 172-48 18-45-146 35-44z" fill="#f8f4ee"/>
+</svg>
+
